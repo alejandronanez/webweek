@@ -21,7 +21,7 @@ export class SearchForm extends Component {
 		return (
 			<form onSubmit={this.handleSubmit} className="measure center">
 				<fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-					<legend className="f4 fw6 ph0 mh0">Search Repos</legend>
+					<legend className="f4 fw6 ph0 mh0">Search Github users</legend>
 					<div className="mt3">
 						<label
 							className="db fw6 lh-copy f6"
