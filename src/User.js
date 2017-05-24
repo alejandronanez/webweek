@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const User = ({ user }) => {
 	return (
@@ -26,3 +27,6 @@ export const User = ({ user }) => {
 		</article>
 	);
 }
+User.propTypes = {
+	user: PropTypes.object
+};

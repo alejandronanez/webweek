@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Banner = ({ error }) => {
 	return (
@@ -11,3 +12,6 @@ export const Banner = ({ error }) => {
 		</div>
 	);
 }
+Banner.propTypes = {
+	error: PropTypes.string
+};
